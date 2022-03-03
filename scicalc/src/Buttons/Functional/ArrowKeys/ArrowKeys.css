@@ -1,0 +1,55 @@
+
+.background {
+    width: 5em;
+    height: 5em;
+    border-radius: 100%;
+    background-color: rgb(39, 37, 37);
+    border: 2px ridge black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    height: 0;
+    width: 0;
+    border-left: .8em solid transparent;
+    border-right: .8em solid transparent;
+    border-bottom: 1.5em solid black;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.arrow:active {
+    border-bottom-color: rgb(75, 75, 78);
+    border-style: solid;
+    animation: growth 100ms forwards ease;
+}
+
+
+.left {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+.right {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.bottom {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+@keyframes growth {
+    0% {
+        border-bottom-width: 1.5em;
+    }
+    50% {
+        border-bottom-width: 1.4em; 
+    }
+    100% {
+        border-bottom-width: 1.35em;
+    }
+}
