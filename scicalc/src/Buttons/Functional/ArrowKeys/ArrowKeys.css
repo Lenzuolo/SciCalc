@@ -23,7 +23,7 @@
 .arrow:active {
     border-bottom-color: rgb(75, 75, 78);
     border-style: solid;
-    animation: growth 100ms forwards ease;
+    animation: growth 300ms forwards ease;
 }
 
 

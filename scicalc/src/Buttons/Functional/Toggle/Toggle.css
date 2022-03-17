@@ -7,6 +7,7 @@
     font-weight: bold;
     font-size: 1.15em;
     color: white;
+    width: 65px;
 }
 
 input[type="checkbox"].toggle {

@@ -1,0 +1,34 @@
+button.basic {
+    font-weight: bold !important;
+    color: white !important;
+    font-family: 'Courier New', Courier, monospace !important;
+    border-radius: 20% !important;
+    width: 4.5em !important;
+    height: 2.5em !important;
+    border: .15em outset;
+    font-size: 14px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    user-select: none !important;
+}
+
+button.basic:active {
+    animation: push 200ms ease;
+}
+
+button.basic.top-left{
+    border-top-left-radius: 60%;
+}
+
+button.basic.bottom-left{
+    border-bottom-left-radius: 60%;
+}
+
+button.basic.top-right{
+    border-top-right-radius: 60%;
+}
+
+button.basic.bottom-right{
+    border-bottom-right-radius: 60%;
+}
